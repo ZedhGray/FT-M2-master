@@ -6,22 +6,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <title>HomeWork Ajax</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <button id='boton'>Ver Amigos</button>
+  <button class="btn" id='boton'>Ver Amigos</button>
   <ul id='lista'>
+    
   </ul>
 
   <h2>Ver Amigos</h2>
-  <img src='https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif' />
+  <img class="img_load" src='https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif' />
   <hr>
-  <input id='input'></input>
-  <button id='search'>Buscar</button>
+  <div>
+    <input class="inp" id='input'></input>
+    <button class="btn" id='search'>Buscar</button>
+  </div>
   <span id='amigo'></span>
-
   <hr>
-  <input id='inputDelete'></input>
-  <button id='delete'>Delete</button>
+  <div>
+    <input class="inp" id='inputDelete'></input>
+    <button class="btn" id='delete'>Delete</button>
+  </div>
   <span id='success'></span>
   <script src="index.js"></script>
 </body>
